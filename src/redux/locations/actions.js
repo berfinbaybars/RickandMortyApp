@@ -1,0 +1,11 @@
+export const GET_LOCATION_REQUEST = 'GET_LOCATION_REQUEST';
+export const GET_LOCATION_SUCCESS = 'GET_LOCATION_SUCCESS';
+export const GET_LOCATION_ERROR = 'GET_LOCATION_ERROR';
+
+export const getLocations = (payload) => ({ type: GET_LOCATION_REQUEST, payload });
+
+export const GET_LOCATION_DETAIL_REQUEST = 'GET_LOCATION_DETAIL_REQUEST';
+export const GET_LOCATION_DETAIL_SUCCESS = 'GET_LOCATION_DETAIL_SUCCESS';
+export const GET_LOCATION_DETAIL_ERROR = 'GET_LOCATION_DETAIL_ERROR';
+
+export const getLocationDetail = (payload) => ({ type: GET_LOCATION_DETAIL_REQUEST, payload });
