@@ -1,7 +1,7 @@
 # Rick and Morty App
 _Purpose of this project is to create an interface for [Rick and Morty API](https://rickandmortyapi.com/documentation/#introduction)._
 
-This project is built by using Expo.
+This project is built by using Expo and React Native.
 
 # In order to install:
 ```
